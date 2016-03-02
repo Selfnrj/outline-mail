@@ -81,9 +81,9 @@ gulp.task('browser-sync', function() {
 gulp.task('sendmail', function () {
   gulp.src( 'dist/*.html') // Modify this to select the HTML file(s)
   .pipe(sendmail({
-    key: 'Enter your Mailgun API key here', // Enter your Mailgun API key here
-    sender: 'from@test.com', // Enter sender email address
-    recipient: 'to@test.com', // Enter recipient email address
+    key: 'key-cf32332438c55dbb7e2b6c1f9c54593f', // Enter your Mailgun API key here
+    sender: 'ambjorn89@gmail.com', // Enter sender email address
+    recipient: 'ambjorn@youpic.com', // Enter recipient email address
     subject: 'Outline Mail - Test email' // Enter email subject line
   }))
 
