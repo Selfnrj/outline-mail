@@ -82,8 +82,8 @@ gulp.task('sendmail', function () {
   gulp.src( 'dist/*.html') // Modify this to select the HTML file(s)
   .pipe(sendmail({
     key: 'key-cf32332438c55dbb7e2b6c1f9c54593f', // Enter your Mailgun API key here
-    sender: 'ambjorn89@gmail.com', // Enter sender email address
-    recipient: 'ambjorn@youpic.com', // Enter recipient email address
+    sender: 'ambjorn@youpic.com', // Enter sender email address
+    recipient: 'ceo@youpic.com', // Enter recipient email address
     subject: 'YouPic Mail' // Enter email subject line
   }))
 
