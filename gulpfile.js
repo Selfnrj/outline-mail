@@ -84,7 +84,7 @@ gulp.task('sendmail', function () {
     key: 'key-cf32332438c55dbb7e2b6c1f9c54593f', // Enter your Mailgun API key here
     sender: 'ambjorn89@gmail.com', // Enter sender email address
     recipient: 'ambjorn@youpic.com', // Enter recipient email address
-    subject: 'Outline Mail - Test email' // Enter email subject line
+    subject: 'YouPic Mail' // Enter email subject line
   }))
 
   // notify to say the task has complete
